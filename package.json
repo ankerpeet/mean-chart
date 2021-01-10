@@ -1,0 +1,14 @@
+{
+  "name": "mean-chart",
+  "version": "1.0.0",
+  "description": "A simple JavaScript library for creating graphs and other data visualizations.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "data"
+  ],
+  "author": "Anker Peet",
+  "license": "MIT"
+}
