@@ -15,4 +15,4 @@ function findRounder(val) {
     return rounder;
 }
 
-module.exports = getMax;
+export default getMax;
