@@ -1,6 +1,6 @@
 {
   "name": "mean-chart",
-  "version": "1.0.31",
+  "version": "1.0.32",
   "description": "A simple JavaScript library for creating graphs and other data visualizations.",
   "main": "index.js",
   "scripts": {
