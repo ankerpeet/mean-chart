@@ -1,0 +1,65 @@
+.mean-chart-bar-graph {
+    text-align: center;
+  }
+  
+  .no-data-message {
+      text-align: center;
+      font-size: 25px;
+      margin: 0 auto;
+      padding: 25px;
+  }
+  
+  .top-bar-graph, .middle-bar-graph, .bottom-bar-graph, .bar-graph-scale, .scale-label, .scale-label-max, .bargraph-bars, .bar-graph-scale-item-container {
+    display: flex;
+  }
+  
+  .top-bar-graph-item, .bar-graph-scale-item, .bar-graph-bar-container, .bar-graph-label, .bar-graph-scale-background {
+    flex: 1;
+  }
+  
+  .scale-label-max, .bar-graph-scale-item, .bar-graph-label-spacer, .bar-graph-scale {
+    flex: .1;
+  }
+  
+  .middle-bar-graph {
+    align-items: flex-end;
+    justify-content: space-between;
+    position: relative;
+  }
+  
+  .bargraph-bars, .bar-graph-scale {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .bargraph-bars {
+    align-items: flex-end;
+  }
+  
+  .bar-graph-scale {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  
+  .bar-graph-scale-item-container {
+    height: 100%;
+  }
+  
+  .bar-graph-scale-item {
+    align-items: flex-end;
+    height: 100%;
+  }
+  
+  .bar-graph-bar {
+    height: 100%; /* Do NOT adjust the height, it will distort the data */
+    margin: 0 auto;
+    max-width: 15px;
+  }
+  
+  .bar-graph-scale-item-container, .top-bar-graph {
+    border-bottom: #2c3e50 solid 1px;
+  }

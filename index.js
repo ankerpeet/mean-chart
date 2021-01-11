@@ -2,6 +2,7 @@ import getMax from "./options/getMax";
 import getInterval from "./options/getInterval";
 import getScale from "./options/getScale";
 import getPercentage from "./calculations/getPercentage";
+import "./styles/main.css";
 
 class Chart {
     constructor(max, interval, scale, data){
